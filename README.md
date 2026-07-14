@@ -1,5 +1,6 @@
 # 本專案使用方法
 參考：[說明文件](https://hyc.eshachem.com/program/llm-agent/8-%e5%9c%a8-next-js-%e4%b8%ad%e5%af%a6%e7%8f%be-rag-%e9%80%8f%e9%81%8envidia-nim-supabase-landchain/)  
+技術文件參考：[技術文件](https://hackmd.io/@HyC-1029/r1I7wY7Efg)  
   
 本專案為RAG範例，透過不同的分支使用不同的方式來實現RAG  
 * starter
