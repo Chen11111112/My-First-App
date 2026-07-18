@@ -42,6 +42,21 @@ export default function Home() {
           >
             開啟助理
           </Link>
+          <Link
+            href="https://app.notion.com/p/Sprint-37c9def5443d8164a3eec659ec0884ee"
+            className="rounded-xl px-6 py-3 text-sm font-semibold text-white transition"
+            style={{ background: "var(--chat-accent)" }}
+          >
+            Sprint 工作手冊
+          </Link>
+          <Link
+            href="https://github.com/Chen11111112/RAG-lab.git"
+            className="rounded-xl px-6 py-3 text-sm font-semibold text-white transition"
+            style={{ background: "var(--chat-accent)" }}
+          >
+            GitHub
+          </Link>
+          <br/>
           <span
             className="text-sm"
             style={{ color: "var(--chat-muted)" }}
