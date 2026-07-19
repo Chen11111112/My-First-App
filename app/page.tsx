@@ -56,6 +56,13 @@ export default function Home() {
           >
             GitHub
           </Link>
+          <Link
+            href="https://hackmd.io/@HyC-1029/r1I7wY7Efg"
+            className="rounded-xl px-6 py-3 text-sm font-semibold text-white transition"
+            style={{ background: "var(--chat-accent)" }}
+          >
+            技術文件
+          </Link>
           <br/>
           <span
             className="text-sm"
