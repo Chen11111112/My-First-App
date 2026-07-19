@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Figtree, Syne } from "next/font/google";
 import "./globals.css";
+import { ReactNode } from "react";
 
 const figtree = Figtree({
   subsets: ["latin"],
@@ -17,7 +18,7 @@ const syne = Syne({
 
 export default function Layout({
   children,
-}) {
+}:{children : ReactNode}) {
   return (
     <html lang="zh-Hant" className={`${figtree.variable} ${syne.variable}`}>
       <body className="shell-bg flex min-h-screen flex-col">
